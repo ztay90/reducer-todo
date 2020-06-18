@@ -1,0 +1,54 @@
+body{
+	background-color:rgb(21, 21, 22);
+	color: white;	
+  font-size: 1.5rem;
+}
+
+.App {
+		background-color: rgba(204, 204, 204, 0.5);
+		text-align: center;
+		width: 500px;
+		height: 350px;
+		margin: 50px auto;
+		padding: 75px 0px;
+		display: flex;
+    flex-direction: column;
+}
+
+form{
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+	margin: 0px auto;
+}
+input{
+	line-height: 1.8rem;
+	font-size: 1.2rem;
+}
+
+.list{
+	margin: 10px auto;
+  max-width: 400px;
+}
+
+.Todo{
+	width: 100%;
+}
+		
+
+.ClearBtn{
+  border: 1px white solid;
+	cursor: pointer;
+	width: 33%;
+  margin: 0px auto;
+  padding: 2%;
+  border-radius: 6px;
+}
+
+.completed{
+	text-decoration: line-through;
+	cursor: pointer;
+	color: rgba(0,0,0,0.2);
+}
+
+	
